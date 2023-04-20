@@ -4,9 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node .",
+    "dev" : "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orgavault/orgavault-server.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orgavault/orgavault-server/issues"
+  },
+  "homepage": "https://github.com/orgavault/orgavault-server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
